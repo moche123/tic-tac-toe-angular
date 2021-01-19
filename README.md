@@ -1,7 +1,6 @@
 # Hi Guys 😜
 In this time I'll share you a tic-tac-toe game only with programming logic, I don't made this with a lot of useful things like inheritance, but I hope this can help begginners.
-:D 
-
+Made in angular using material for buttons and tabs 
 # Front
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
