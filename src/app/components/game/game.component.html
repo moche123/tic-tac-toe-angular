@@ -1,0 +1,23 @@
+<hr>
+<div class="choosegamemethod" aria-disabled="true">
+    Player 1: <h3>Choose</h3> 
+    <button mat-raised-button color="warn" (click)="activedPlayer1('X')">X</button>
+    <button mat-raised-button color="primary" (click)="activedPlayer1('O')">O</button><br>
+    <br>
+    Player 1: {{player1choose}}<br>
+    Player 2: {{player2choose}}
+</div>
+<div class="groupofthree mx-auto">    
+    <h1>{{turno}}</h1> 
+    <h3 ngClass="bg-danger text-light">{{finjuego}}</h3>
+    <h3>Ganador: <strong>{{ganador}}</strong></h3>
+    <button mat-raised-button color="warn"  *ngFor="let square of squares"
+                    (click)="choose(square.row,square.column)" >
+                   {{square.content}}
+    </button>
+</div>
+
+
+
+
+

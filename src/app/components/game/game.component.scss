@@ -1,0 +1,20 @@
+
+.groupofthree{
+    max-width: 500px;
+    @media screen and(max-width:700px) {
+        max-width: 350px;
+    }
+    button{
+        height:150px;
+        width: 150px;
+        &:focus{
+            background-color: none;
+            outline: none;
+        }
+        @media screen and(max-width:700px) {
+            height:100px;
+            width: 100px;
+            
+        }
+    }
+}
